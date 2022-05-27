@@ -14,3 +14,19 @@ class Main{
 	}
 
 }
+
+class Main{
+	public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+	        System.out.print("Enter the base : ");
+	        int b = sc.nextInt();
+	        System.out.print("Enter the height : ");
+	        int h=sc.nextInt();
+	        double a=0.5*b*h;
+	        System.out.print("Area of rectangle :  "); 
+	        System.out.print(a); 
+	
+	}
+
+}
+
