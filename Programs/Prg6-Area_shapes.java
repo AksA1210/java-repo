@@ -9,13 +9,16 @@ class Main{
 	        int a=l*b;
 	        System.out.print("Area of rectangle :  "); 
 	        System.out.println(a); 
-	        System.out.print("Enter the base : ");
-	        int base = sc.nextInt();
-	        System.out.print("Enter the height : ");
-	        int h=sc.nextInt();
-	        double area=0.5*base*h;
-	        System.out.print("Area of triangle :  "); 
-	        System.out.print(area); 
+	        System.out.print("Enter the sidelength : ");
+	        int s = sc.nextInt();
+	        int area=s*s;
+	        System.out.print("Area of square :  "); 
+	        System.out.println(area); 
+	        System.out.print("Enter the radius : ");
+	        int radius=sc.nextInt();
+	        double area_cir=3.14*radius*radius;
+	        System.out.print("Area of circle :  "); 
+	        System.out.print(area_cir); 
 	
 	}
 
